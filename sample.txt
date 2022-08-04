@@ -1,0 +1,6 @@
+Function name | worked time | arguments as list | arguments as dictionary | function result
+sum | 2022-08-04 20:55:54 | (1, 2) |          | 3
+divide | 2022-08-04 20:55:54 |        | {'a': 4, 'b': 2} | 2.0
+divide | 2022-08-04 20:55:54 | (10, 0) |          | ZeroDivisionError: division by zero
+sum | 2022-08-04 20:55:54 | (1, 'a') |          | TypeError: unsupported operand type(s) for +: 'int' and 'str'
+sum | 2022-08-04 20:55:54 | (1,) | {'b': 2} | 3
